@@ -4,7 +4,7 @@ const app = new Vue({
         database: [],
     },
     created() {
-        axios.get("http://localhost/php-ajax-dischi/backend.php")
+        axios.get("http://localhost:8888/php/php-ajax-dischi/backend.php")
         .then( (response) => {
             this.database = response.data;
         });
