@@ -73,6 +73,5 @@ $database = [
 ];
 
 header('Content-Type: application/json;');
-// header("Content-type: application/json;");
 
 echo json_encode($database);
